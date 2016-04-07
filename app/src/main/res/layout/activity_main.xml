@@ -8,19 +8,64 @@
     tools:context="com.android.msf.kingsofpoland.MainActivity">
 
     <ImageView
+        android:id="@+id/main_img"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="9"
-        android:src="@drawable/Pc_Mieszko_1"
+        android:src="@drawable/mieszko_1"
         android:background="#333"/>
 
     <TextView
+        android:id="@+id/king_name"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Mieszko I"
+        android:text="@string/mieszko"
         android:textSize="32sp"
         android:layout_margin="16dp"
         android:textAlignment="center"
         android:textColor="#fff"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/bHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:drawableLeft="@drawable/ic_home"
+                android:onClick="goHome"/>
+            <Button
+                android:id="@+id/bPiast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Piast Dynasty"
+                android:onClick="showPiast"/>
+            <Button
+                android:id="@+id/bAngevin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Angevin Dynasty"/>
+            <Button
+                android:id="@+id/bJagiello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jagiellonian Dynasty"/>
+            <Button
+                android:id="@+id/bElected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Elected Kings"/>
+            <Button
+                android:id="@+id/bInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Info"
+                android:drawableLeft="@drawable/ic_info"/>
+        </LinearLayout>
+    </HorizontalScrollView>
 </LinearLayout>
