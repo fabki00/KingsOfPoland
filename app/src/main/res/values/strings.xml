@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Kings of Poland</string>
     <string name="mieszko">Mieszko I</string>
+    <string name="boleslaw_chrobry">Boleslaw Chrobry</string>
+    <string name="boleslaw_kedzierzawy">Boleslaw Kedzierzawy</string>
+    <string name="boleslaw_krzywousty">Boleslaw Krzywousty</string>
+    <string name="title_activity_piast">Piast</string>
 </resources>

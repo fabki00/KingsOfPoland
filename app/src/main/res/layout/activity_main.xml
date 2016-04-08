@@ -12,19 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="9"
-        android:src="@drawable/mieszko_1"
+        android:src="@drawable/kingsofpoland"
         android:background="#333"/>
 
-    <TextView
-        android:id="@+id/king_name"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="@string/mieszko"
-        android:textSize="32sp"
-        android:layout_margin="16dp"
-        android:textAlignment="center"
-        android:textColor="#fff"/>
     <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
